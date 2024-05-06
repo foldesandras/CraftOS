@@ -36,6 +36,8 @@ while true do
         elseif y == menuLine + 3 then
             term.clear()
             return
+        elseif y == menuLine + 6 then
+            os.reboot()
         end 
     end
 end        
